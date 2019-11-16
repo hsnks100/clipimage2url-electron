@@ -1,0 +1,30 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . clipimage2url"
+
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^7.1.1"
+  },
+  "dependencies": {
+    "clipboard": "^2.0.4",
+    "clipboardy": "^2.1.0",
+    "fs": "0.0.1-security",
+    "request": "^2.88.0"
+  }
+}
