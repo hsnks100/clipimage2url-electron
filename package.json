@@ -4,9 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-      "start": "electron .",
-      "build": "electron-packager . clipimage2url"
-
+    "start": "electron .",
+    "build": "electron-packager . clipimage2url"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -19,12 +18,19 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.1"
+    "electron-rebuild": "^1.8.6",
+    "node-key-sender": "^1.0.11",
+    "electron": "^6.0.0"
   },
   "dependencies": {
     "clipboard": "^2.0.4",
     "clipboardy": "^2.1.0",
+    "electron-notify": "^0.1.0",
+    "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "request": "^2.88.0"
+    "jquery": "^3.4.1",
+    "multer": "^1.4.2",
+    "request": "^2.88.0",
+    "win32-api": "^6.2.0"
   }
 }

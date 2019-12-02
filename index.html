@@ -2,21 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <!-- <meta http&#45;equiv="Content&#45;Security&#45;Policy" content="default&#45;src 'self'; script&#45;src 'self'"> -->
+    <!-- <meta http&#45;equiv="X&#45;Content&#45;Security&#45;Policy" content="default&#45;src 'self'; script&#45;src 'self'"> -->
     <title>Hello World!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    Hello World!
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
     and Electron <span id="electron-version"></span>.
+    <h1>
     <div> 
-    이미지를 클립보드에 옮기고 Ctrl + Q 누르세요.
-    </div>
+        <br />
+        이미지를 클립보드 복사하고 Ctrl(Cmd) + Shift + U 누르면, url 이 클립보드에 복사됩니다.<br />
+    </div></h1>
 
     <!-- You can also require other files to run in this process -->
+    <script src="remote.js"></script>
     <script src="./renderer.js"></script>
   </body>
 </html>
