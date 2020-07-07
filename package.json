@@ -20,7 +20,7 @@
   "devDependencies": {
     "electron-rebuild": "^1.8.6",
     "node-key-sender": "^1.0.11",
-    "electron": "^6.0.0"
+    "electron": "^9.1.0"
   },
   "dependencies": {
     "clipboard": "^2.0.4",
